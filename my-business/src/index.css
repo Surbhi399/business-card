@@ -1,0 +1,130 @@
+body{
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+}
+.Business-Card{
+  
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: white;
+  margin: 100px 550px;
+  height: 700px;
+  width: 400px;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.contact-icon{
+  width: 25px;
+  height : 25px;
+}
+.footer-icon{
+  width: 30px;
+  height : 30px;
+}
+
+
+.circle-img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  border: 2px solid #eee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.UserName{
+  margin: 10px;
+  font-size: 40px;
+  letter-spacing: -0.5px;
+}
+.Designation{
+  margin: 2px;
+  color: #898AC4;
+  font-weight: lighter;
+  letter-spacing: -0.5px;
+  
+}
+.contact-container{
+  margin: 10px;
+}
+.Link{
+  font-size: 18px;
+  text-decoration: none;
+  color: blue;
+}
+
+.button-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.email-button,
+.linkedin-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1.5px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  width: 300px;
+  height: 48px;
+  margin: 10px 5px;
+}
+
+.linkedin-button {
+  background-color: #0065F8;
+  color: white;
+  border: none;
+  
+}
+
+.linkedin-button:hover {
+  background-color: #005f90;
+}
+
+.email-button:hover {
+  background-color: #f3f3f3;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-link {
+  
+  text-decoration: none;
+  color: inherit;
+}
+.About{
+  text-align: left;
+  margin-bottom: 5px;
+}
+p{
+  text-align: left;
+  color: #333446;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.Footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 50px;
+
+}
